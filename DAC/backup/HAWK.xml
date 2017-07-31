@@ -1,0 +1,55 @@
+<?xml version="1.0" standalone="yes"?>
+<DTADataSet>
+  <Clickabledata>
+    <ID>0</ID>
+    <DeviceID>2</DeviceID>
+    <ButtonID>1</ButtonID>
+    <Discription>Battery Master 1</Discription>
+    <Type>Switch</Type>
+    <DcsID>201</DcsID>
+  </Clickabledata>
+  <Clickabledata>
+    <ID>1</ID>
+    <DeviceID>2</DeviceID>
+    <ButtonID>2</ButtonID>
+    <Discription>Battery Master 2</Discription>
+    <Type>Switch</Type>
+    <DcsID>202</DcsID>
+  </Clickabledata>
+  <Devices>
+    <DeviceID>1</DeviceID>
+    <Discription>INIT</Discription>
+  </Devices>
+  <Devices>
+    <DeviceID>2</DeviceID>
+    <Discription>SYSTEMS</Discription>
+  </Devices>
+  <Devices>
+    <DeviceID>3</DeviceID>
+    <Discription>MISCSYS</Discription>
+  </Devices>
+  <Devices>
+    <DeviceID>4</DeviceID>
+    <Discription>UPDATEANIM</Discription>
+  </Devices>
+  <Devices>
+    <DeviceID>5</DeviceID>
+    <Discription>HUD</Discription>
+  </Devices>
+  <Devices>
+    <DeviceID>6</DeviceID>
+    <Discription>KNEEBOARD</Discription>
+  </Devices>
+  <Devices>
+    <DeviceID>7</DeviceID>
+    <Discription>VHF</Discription>
+  </Devices>
+  <Devices>
+    <DeviceID>8</DeviceID>
+    <Discription>UHF</Discription>
+  </Devices>
+  <Devices>
+    <DeviceID>9</DeviceID>
+    <Discription>INTERCOM</Discription>
+  </Devices>
+</DTADataSet>
