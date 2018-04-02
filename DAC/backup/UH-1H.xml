@@ -248,8 +248,8 @@
   </DCS_ID>
   <DCS_ID>
     <ExportID>2007</ExportID>
-    <Description>ADF ARN83</Description>
-    <ExportIDWithDescription>2007 - ADF ARN83</ExportIDWithDescription>
+    <Description>ADF ARN83 (NOT FUNCTIONAL)</Description>
+    <ExportIDWithDescription>2007 - ADF ARN83 (NOT FUNCTIONAL)</ExportIDWithDescription>
     <Type>Display</Type>
   </DCS_ID>
   <DCS_ID>
@@ -314,7 +314,7 @@
     <ID>2</ID>
     <DeviceID>1</DeviceID>
     <ButtonID>4</ButtonID>
-    <Discription>DC Voltmeter Selector  BAT/MAIN GEN/STBY GEN/ESS BUS/NON-ESS BUS {0.0,0.1,0.2,0.3,0.4}</Discription>
+    <Discription>DC Voltmeter Selector (BAT/MAIN GEN/STBY GEN/ESS BUS/NON-ESS BUS) {0.0,0.1,0.2,0.3,0.4}</Discription>
     <Type>Switch</Type>
     <DcsID>218</DcsID>
   </Clickabledata>
@@ -330,7 +330,7 @@
     <ID>4</ID>
     <DeviceID>1</DeviceID>
     <ButtonID>7</ButtonID>
-    <Discription>AC Voltmeter Selector AB/AC PHASE/BC {0.0,0.1,0.2}</Discription>
+    <Discription>AC Voltmeter Selector (AB/ AC PHASE/ BC) {0.0,0.1,0.2}</Discription>
     <Type>Switch</Type>
     <DcsID>214</DcsID>
   </Clickabledata>
@@ -338,7 +338,7 @@
     <ID>5</ID>
     <DeviceID>1</DeviceID>
     <ButtonID>8</ButtonID>
-    <Discription>Inverter MAIN/OFF/SPARE {-1.0,0.0,1.0}</Discription>
+    <Discription>Inverter (MAIN/OFF/SPARE) {-1.0,0.0,1.0}</Discription>
     <Type>Switch</Type>
     <DcsID>215</DcsID>
   </Clickabledata>
@@ -946,7 +946,7 @@
     <ID>81</ID>
     <DeviceID>1</DeviceID>
     <ButtonID>2</ButtonID>
-    <Discription>Main generator</Discription>
+    <Discription>Main generator (ON/OFF/RESET) {-1, 0, 1}</Discription>
     <Type>Switch</Type>
     <DcsID>216</DcsID>
   </Clickabledata>
@@ -1002,7 +1002,7 @@
     <ID>88</ID>
     <DeviceID>3</DeviceID>
     <ButtonID>13</ButtonID>
-    <Discription>Chip Detector</Discription>
+    <Discription>Chip Detector {-1, 0, 1}</Discription>
     <Type>Switch</Type>
     <DcsID>86</DcsID>
   </Clickabledata>
@@ -1018,7 +1018,7 @@
     <ID>90</ID>
     <DeviceID>3</DeviceID>
     <ButtonID>15</ButtonID>
-    <Discription>Governor RPM</Discription>
+    <Discription>Governor RPM {-1, 0, 1}</Discription>
     <Type>Switch</Type>
     <DcsID>203</DcsID>
   </Clickabledata>
@@ -1082,7 +1082,7 @@
     <ID>98</ID>
     <DeviceID>7</DeviceID>
     <ButtonID>1</ButtonID>
-    <Discription>Navigation lightsOFF/1/2/3/4/BRT {0.0,0.1,0.2,0.3,0.4,0.5}</Discription>
+    <Discription>Navigation lights (OFF/1/2/3/4/BRT) {0.0,0.1,0.2,0.3,0.4,0.5}</Discription>
     <Type>Switch</Type>
     <DcsID>222</DcsID>
   </Clickabledata>
@@ -1090,7 +1090,7 @@
     <ID>99</ID>
     <DeviceID>7</DeviceID>
     <ButtonID>2</ButtonID>
-    <Discription>Position Lights, STEADY/OFF/FLASH {-1.0,0.0,1.0}</Discription>
+    <Discription>Position Lights (STEADY/OFF/FLASH) {-1.0,0.0,1.0}</Discription>
     <Type>Switch</Type>
     <DcsID>223</DcsID>
   </Clickabledata>
@@ -1098,7 +1098,7 @@
     <ID>100</ID>
     <DeviceID>7</DeviceID>
     <ButtonID>3</ButtonID>
-    <Discription>Position Lights, DIM/BRIGHT</Discription>
+    <Discription>Position Lights DIM/BRIGHT</Discription>
     <Type>Switch</Type>
     <DcsID>224</DcsID>
   </Clickabledata>
@@ -1106,7 +1106,7 @@
     <ID>101</ID>
     <DeviceID>7</DeviceID>
     <ButtonID>4</ButtonID>
-    <Discription>Anti-Collision Lights, ON/OFF</Discription>
+    <Discription>Anti-Collision Lights ON/OFF</Discription>
     <Type>Switch</Type>
     <DcsID>225</DcsID>
   </Clickabledata>
@@ -1194,7 +1194,7 @@
     <ID>112</ID>
     <DeviceID>9</DeviceID>
     <ButtonID>8</ButtonID>
-    <Discription>Armament Armed/Safe/Off</Discription>
+    <Discription>Armament Armed/Safe/Off {-1.0,0.0,1.0}</Discription>
     <Type>Switch</Type>
     <DcsID>252</DcsID>
   </Clickabledata>
@@ -1202,7 +1202,7 @@
     <ID>113</ID>
     <DeviceID>9</DeviceID>
     <ButtonID>9</ButtonID>
-    <Discription>Gun Selector Left/Right/All</Discription>
+    <Discription>Gun Selector Left/Right/All {-1.0,0.0,1.0}</Discription>
     <Type>Switch</Type>
     <DcsID>253</DcsID>
   </Clickabledata>
@@ -1210,7 +1210,7 @@
     <ID>114</ID>
     <DeviceID>9</DeviceID>
     <ButtonID>10</ButtonID>
-    <Discription>Armament Selector 7.62/2.75/40</Discription>
+    <Discription>Armament Selector 7.62/2.75/40 {-1.0,0.0,1.0}</Discription>
     <Type>Switch</Type>
     <DcsID>256</DcsID>
   </Clickabledata>
@@ -1218,7 +1218,7 @@
     <ID>115</ID>
     <DeviceID>9</DeviceID>
     <ButtonID>11</ButtonID>
-    <Discription>Rocket Pair Selector</Discription>
+    <Discription>Rocket Pair Selector {0.0,0.1,0.2,0.3,0.4,0.5,0.6,0.7}</Discription>
     <Type>Switch</Type>
     <DcsID>257</DcsID>
   </Clickabledata>
@@ -1274,7 +1274,7 @@
     <ID>122</ID>
     <DeviceID>12</DeviceID>
     <ButtonID>2</ButtonID>
-    <Discription>Wiper Selector Pilot/Both/Operator {-1.0,0.0,1.0}</Discription>
+    <Discription>Wiper Selector (Pilot/Both/Operator) {-1,0,1}</Discription>
     <Type>Switch</Type>
     <DcsID>227</DcsID>
   </Clickabledata>
@@ -1282,13 +1282,13 @@
     <ID>123</ID>
     <DeviceID>12</DeviceID>
     <ButtonID>1</ButtonID>
-    <Discription>Wipers Speed  PARK/OFF/LOW/MED/HIGH {-1.0,0.0,1.0}</Discription>
+    <Discription>Wipers Speed (PARK/OFF/LOW/MED/HIGH) input{-1.0,0.0,1.0}</Discription>
     <Type>Switch</Type>
     <DcsID>229</DcsID>
   </Clickabledata>
   <Clickabledata>
     <ID>124</ID>
-    <DeviceID>12</DeviceID>
+    <DeviceID>11</DeviceID>
     <ButtonID>5</ButtonID>
     <Discription>Open Left Doors</Discription>
     <Type>Switch</Type>
@@ -1314,7 +1314,7 @@
     <ID>127</ID>
     <DeviceID>13</DeviceID>
     <ButtonID>2</ButtonID>
-    <Discription>Radar Altimeter Low Altitude Setting</Discription>
+    <Discription>Radar Altimeter Low Altitude Setting {0.0,1.0} in 0.2 Steps</Discription>
     <Type>Rotary</Type>
     <DcsID>445</DcsID>
   </Clickabledata>
@@ -1322,7 +1322,7 @@
     <ID>128</ID>
     <DeviceID>13</DeviceID>
     <ButtonID>1</ButtonID>
-    <Discription>Radar Altimeter Test / Hight Set</Discription>
+    <Discription>Radar Altimeter Test</Discription>
     <Type>Switch</Type>
     <DcsID>446</DcsID>
   </Clickabledata>
@@ -1330,7 +1330,7 @@
     <ID>129</ID>
     <DeviceID>13</DeviceID>
     <ButtonID>3</ButtonID>
-    <Discription>Radar Altimeter Test / Hight Set {0.0,1.0} in 0.2 Steps</Discription>
+    <Discription>Radar Altimeter Hight Setting {0.0,1.0} in 0.2 Steps</Discription>
     <Type>Rotary</Type>
     <DcsID>464</DcsID>
   </Clickabledata>
@@ -1338,7 +1338,7 @@
     <ID>130</ID>
     <DeviceID>15</DeviceID>
     <ButtonID>1</ButtonID>
-    <Discription>Reset/Test switch {-1.0,0.0,1.0}</Discription>
+    <Discription>Reset/Test switch {-1, 0, 1}</Discription>
     <Type>Switch</Type>
     <DcsID>111</DcsID>
   </Clickabledata>
@@ -1346,7 +1346,7 @@
     <ID>131</ID>
     <DeviceID>15</DeviceID>
     <ButtonID>2</ButtonID>
-    <Discription>Bright/Dim switch {-1.0,0.0,1.0}</Discription>
+    <Discription>Bright/Dim switch {-1, 0, 1}</Discription>
     <Type>Switch</Type>
     <DcsID>112</DcsID>
   </Clickabledata>
@@ -1354,7 +1354,7 @@
     <ID>132</ID>
     <DeviceID>17</DeviceID>
     <ButtonID>7</ButtonID>
-    <Discription>IFF Code ZERO/B/A/HOLD {0.0,0.1,0.2,0.3}</Discription>
+    <Discription>IFF Code (ZERO/B/A/HOLD) input{-1.0,0.0,1.0}</Discription>
     <Type>Switch</Type>
     <DcsID>58</DcsID>
   </Clickabledata>
@@ -1362,7 +1362,7 @@
     <ID>133</ID>
     <DeviceID>17</DeviceID>
     <ButtonID>8</ButtonID>
-    <Discription>IFF Master OFF/STBY/LOW/NOMR/EMER {0.0,0.1,0.2,0.3,0.4}</Discription>
+    <Discription>IFF Master (OFF/STBY/LOW/NOMR/EMER) {0.0,0.1,0.2,0.3,0.4}</Discription>
     <Type>Switch</Type>
     <DcsID>59</DcsID>
   </Clickabledata>
@@ -1378,7 +1378,7 @@
     <ID>135</ID>
     <DeviceID>17</DeviceID>
     <ButtonID>10</ButtonID>
-    <Discription>IFF Test M-1</Discription>
+    <Discription>IFF Test M-1 {-1, 0, 1}</Discription>
     <Type>Switch</Type>
     <DcsID>61</DcsID>
   </Clickabledata>
@@ -1386,7 +1386,7 @@
     <ID>136</ID>
     <DeviceID>17</DeviceID>
     <ButtonID>11</ButtonID>
-    <Discription>IFF Test M-2</Discription>
+    <Discription>IFF Test M-2 {-1, 0, 1}</Discription>
     <Type>Switch</Type>
     <DcsID>62</DcsID>
   </Clickabledata>
@@ -1394,7 +1394,7 @@
     <ID>137</ID>
     <DeviceID>17</DeviceID>
     <ButtonID>12</ButtonID>
-    <Discription>IFF Test M-3A</Discription>
+    <Discription>IFF Test M-3A {-1, 0, 1}</Discription>
     <Type>Switch</Type>
     <DcsID>63</DcsID>
   </Clickabledata>
@@ -1402,7 +1402,7 @@
     <ID>138</ID>
     <DeviceID>17</DeviceID>
     <ButtonID>13</ButtonID>
-    <Discription>IFF Test M-C</Discription>
+    <Discription>IFF Test M-C {-1, 0, 1}</Discription>
     <Type>Switch</Type>
     <DcsID>64</DcsID>
   </Clickabledata>
@@ -1410,7 +1410,7 @@
     <ID>139</ID>
     <DeviceID>17</DeviceID>
     <ButtonID>14</ButtonID>
-    <Discription>IFF RAD Test/Mon</Discription>
+    <Discription>IFF RAD Test/Mon {-1, 0, 1}</Discription>
     <Type>Switch</Type>
     <DcsID>65</DcsID>
   </Clickabledata>
@@ -1418,7 +1418,7 @@
     <ID>140</ID>
     <DeviceID>17</DeviceID>
     <ButtonID>15</ButtonID>
-    <Discription>IFF Ident/Mic</Discription>
+    <Discription>IFF Ident/Mic {-1, 0, 1}</Discription>
     <Type>Switch</Type>
     <DcsID>66</DcsID>
   </Clickabledata>
@@ -1434,7 +1434,7 @@
     <ID>142</ID>
     <DeviceID>17</DeviceID>
     <ButtonID>1</ButtonID>
-    <Discription>IFF MODE1-WHEEL1 0/1/2/3 {0.0,0.33,0.66,0.99}</Discription>
+    <Discription>IFF MODE1-WHEEL1 (0/1/2/3) {0.0,0.33,0.66,0.99}</Discription>
     <Type>Switch</Type>
     <DcsID>68</DcsID>
   </Clickabledata>
@@ -1442,7 +1442,7 @@
     <ID>143</ID>
     <DeviceID>17</DeviceID>
     <ButtonID>2</ButtonID>
-    <Discription>IFF MODE1-WHEEL2 0/1/2/3/4/5/6/7 {0.0,0.11,0.22,0.33,0.44,0.55,0.66,0.77}</Discription>
+    <Discription>IFF MODE1-WHEEL2 (0/1/2/3/4/5/6/7) {0.0,0.11,0.22,0.33,0.44,0.55,0.66,0.77}</Discription>
     <Type>Switch</Type>
     <DcsID>69</DcsID>
   </Clickabledata>
@@ -1450,7 +1450,7 @@
     <ID>144</ID>
     <DeviceID>17</DeviceID>
     <ButtonID>3</ButtonID>
-    <Discription>IFF MODE3A-WHEEL1 0/1/2/3/4/5/6/7 {0.0,0.11,0.22,0.33,0.44,0.55,0.66,0.77}</Discription>
+    <Discription>IFF MODE3A-WHEEL1 (0/1/2/3/4/5/6/7) {0.0,0.11,0.22,0.33,0.44,0.55,0.66,0.77}</Discription>
     <Type>Switch</Type>
     <DcsID>70</DcsID>
   </Clickabledata>
@@ -1458,7 +1458,7 @@
     <ID>145</ID>
     <DeviceID>17</DeviceID>
     <ButtonID>4</ButtonID>
-    <Discription>IFF MODE3A-WHEEL2 0/1/2/3/4/5/6/7 {0.0,0.11,0.22,0.33,0.44,0.55,0.66,0.77}</Discription>
+    <Discription>IFF MODE3A-WHEEL2 (0/1/2/3/4/5/6/7) {0.0,0.11,0.22,0.33,0.44,0.55,0.66,0.77}</Discription>
     <Type>Switch</Type>
     <DcsID>71</DcsID>
   </Clickabledata>
@@ -1466,7 +1466,7 @@
     <ID>146</ID>
     <DeviceID>17</DeviceID>
     <ButtonID>5</ButtonID>
-    <Discription>IFF MODE3A-WHEEL3 0/1/2/3/4/5/6/7 {0.0,0.11,0.22,0.33,0.44,0.55,0.66,0.77}</Discription>
+    <Discription>IFF MODE3A-WHEEL3 (0/1/2/3/4/5/6/7) {0.0,0.11,0.22,0.33,0.44,0.55,0.66,0.77}</Discription>
     <Type>Switch</Type>
     <DcsID>72</DcsID>
   </Clickabledata>
@@ -1474,7 +1474,7 @@
     <ID>147</ID>
     <DeviceID>17</DeviceID>
     <ButtonID>6</ButtonID>
-    <Discription>IFF MODE3A-WHEEL4 0/1/2/3/4/5/6/7 {0.0,0.11,0.22,0.33,0.44,0.55,0.66,0.77}</Discription>
+    <Discription>IFF MODE3A-WHEEL4 (0/1/2/3/4/5/6/7) {0.0,0.11,0.22,0.33,0.44,0.55,0.66,0.77}</Discription>
     <Type>Switch</Type>
     <DcsID>73</DcsID>
   </Clickabledata>
@@ -1538,7 +1538,7 @@
     <ID>155</ID>
     <DeviceID>20</DeviceID>
     <ButtonID>4</ButtonID>
-    <Discription>VHF ARC 134 Frequency MHz / Power {0.0, 1.0} in 0.1 Steps</Discription>
+    <Discription>VHF ARC 134 Frequency MHz {0.0, 1.0} in 0.1 Steps</Discription>
     <Type>Rotary</Type>
     <DcsID>5</DcsID>
   </Clickabledata>
@@ -1546,7 +1546,7 @@
     <ID>156</ID>
     <DeviceID>20</DeviceID>
     <ButtonID>1</ButtonID>
-    <Discription>VHF ARC 134 Frequency MHz / Power {0.85, 1.0}</Discription>
+    <Discription>VHF ARC 134 Power {0.85,1.0}</Discription>
     <Type>Switch</Type>
     <DcsID>7</DcsID>
   </Clickabledata>
@@ -1554,7 +1554,7 @@
     <ID>157</ID>
     <DeviceID>20</DeviceID>
     <ButtonID>5</ButtonID>
-    <Discription>VHF ARC 134 Frequency kHz / Volume {0.0, 1.0} in 0.1 Steps</Discription>
+    <Discription>VHF ARC 134 Frequency kHz {0.0, 1.0} in 0.1 Steps</Discription>
     <Type>Rotary</Type>
     <DcsID>9</DcsID>
   </Clickabledata>
@@ -1562,7 +1562,7 @@
     <ID>158</ID>
     <DeviceID>20</DeviceID>
     <ButtonID>3</ButtonID>
-    <Discription>VHF ARC 134 Frequency kHz / Volume {0.0, 1.0} in 0.1 Steps</Discription>
+    <Discription>VHF ARC 134 Volume {0.0, 0.65} in 0.05 Steps</Discription>
     <Type>Rotary</Type>
     <DcsID>8</DcsID>
   </Clickabledata>
@@ -1626,7 +1626,7 @@
     <ID>166</ID>
     <DeviceID>21</DeviceID>
     <ButtonID>8</ButtonID>
-    <Discription>Intercom Mode (PVT/INT/VHF FM/UHF/VHF AM/Not used) {0.0,0.1,0.2,0.3,0.4,0.5}</Discription>
+    <Discription>Intercom Mode (PVT/INT/VHF FM/UHF/VHF AM/4) {0.0,0.1,0.2,0.3,0.4,0.5}</Discription>
     <Type>Switch</Type>
     <DcsID>30</DcsID>
   </Clickabledata>
@@ -1642,8 +1642,8 @@
     <ID>168</ID>
     <DeviceID>22</DeviceID>
     <ButtonID>1</ButtonID>
-    <Discription>UHF ARC 51 Preset Channel Selector  1/2/.../19/20 {0.0,0.05,...,0.90,0.95}</Discription>
-    <Type>Switch</Type>
+    <Discription>UHF ARC 51 Preset Channel Selector (1/2/.../19/20) {0.0,0.05,...,0.90,0.95}</Discription>
+    <Type>Rotary</Type>
     <DcsID>16</DcsID>
   </Clickabledata>
   <Clickabledata>
@@ -1706,7 +1706,7 @@
     <ID>176</ID>
     <DeviceID>23</DeviceID>
     <ButtonID>1</ButtonID>
-    <Discription>VHF ARC 131 Frequency Tens MHz {0.3,0.7} in 0.1 Steps</Discription>
+    <Discription>VHF ARC 131 Frequency Tens MHz {0.3,0.4,0.5,0.6,0.7}</Discription>
     <Type>Rotary</Type>
     <DcsID>31</DcsID>
   </Clickabledata>
@@ -1714,7 +1714,7 @@
     <ID>177</ID>
     <DeviceID>23</DeviceID>
     <ButtonID>2</ButtonID>
-    <Discription>VHF ARC 131 Frequency Ones MHz {0.0,0.9} in 0.1 Steps</Discription>
+    <Discription>VHF ARC 131 Frequency Ones MHz {0.0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9}</Discription>
     <Type>Rotary</Type>
     <DcsID>32</DcsID>
   </Clickabledata>
@@ -1722,7 +1722,7 @@
     <ID>178</ID>
     <DeviceID>23</DeviceID>
     <ButtonID>3</ButtonID>
-    <Discription>VHF ARC 131 Frequency Decimals MHz {0.0,0.9} in 0.1 Steps</Discription>
+    <Discription>VHF ARC 131 Frequency Decimals MHz {0.0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9}</Discription>
     <Type>Rotary</Type>
     <DcsID>33</DcsID>
   </Clickabledata>
@@ -1730,7 +1730,7 @@
     <ID>179</ID>
     <DeviceID>23</DeviceID>
     <ButtonID>4</ButtonID>
-    <Discription>VHF ARC 131 Frequency Hundredths MHz {0.0,0.1} in 0.1 Steps</Discription>
+    <Discription>VHF ARC 131 Frequency Hundredths MHz {0.0,0.1}</Discription>
     <Type>Rotary</Type>
     <DcsID>34</DcsID>
   </Clickabledata>
@@ -1738,7 +1738,7 @@
     <ID>180</ID>
     <DeviceID>23</DeviceID>
     <ButtonID>7</ButtonID>
-    <Discription>VHF ARC 131 Mode OFF/TR/RETRAN/HOME {0.0,0.1,0.2,0.3}</Discription>
+    <Discription>VHF ARC 131 Mode (OFF/TR/RETRAN/HOME) {0.0,0.1,0.2,0.3}</Discription>
     <Type>Switch</Type>
     <DcsID>35</DcsID>
   </Clickabledata>
@@ -1761,24 +1761,24 @@
   <Clickabledata>
     <ID>183</ID>
     <DeviceID>25</DeviceID>
-    <ButtonID>3</ButtonID>
-    <Discription>ARN-82 Frequency MHz / Power {0.8, 1.0}</Discription>
-    <Type>Switch</Type>
-    <DcsID>52</DcsID>
+    <ButtonID>1</ButtonID>
+    <Discription>ARN-82 Frequency MHz {0.0,1.0} in 0.1 Steps</Discription>
+    <Type>Rotary</Type>
+    <DcsID>51</DcsID>
   </Clickabledata>
   <Clickabledata>
     <ID>184</ID>
     <DeviceID>25</DeviceID>
-    <ButtonID>1</ButtonID>
-    <Discription>ARN-82 Frequency MHz / Power {0.0,1.0} in 0.1 Steps</Discription>
-    <Type>Rotary</Type>
-    <DcsID>51</DcsID>
+    <ButtonID>3</ButtonID>
+    <Discription>ARN-82 Power {0.8, 1.0}</Discription>
+    <Type>Switch</Type>
+    <DcsID>52</DcsID>
   </Clickabledata>
   <Clickabledata>
     <ID>185</ID>
     <DeviceID>25</DeviceID>
     <ButtonID>2</ButtonID>
-    <Discription>ARN-82 Frequency kHz / Volume {0.0,1.0} in 0.1 Steps</Discription>
+    <Discription>ARN-82 Frequency kHz {0.0,1.0} in 0.1 Steps</Discription>
     <Type>Rotary</Type>
     <DcsID>54</DcsID>
   </Clickabledata>
@@ -1786,7 +1786,7 @@
     <ID>186</ID>
     <DeviceID>25</DeviceID>
     <ButtonID>4</ButtonID>
-    <Discription>ARN-82 Frequency kHz / Volume {0.0, 0.65} in 0.15 Steps</Discription>
+    <Discription>ARN-82 Volume{0.0, 0.65} in 0.15 Steps</Discription>
     <Type>Rotary</Type>
     <DcsID>53</DcsID>
   </Clickabledata>
@@ -1794,7 +1794,7 @@
     <ID>187</ID>
     <DeviceID>26</DeviceID>
     <ButtonID>1</ButtonID>
-    <Discription>Marker beacon On/Off/Volume {0.0,1.0} in 0.1 Steps</Discription>
+    <Discription>Marker beacon Off/On/Volume {0.0,1.0} in 0.1 Steps</Discription>
     <Type>Rotary</Type>
     <DcsID>57</DcsID>
   </Clickabledata>
@@ -1810,7 +1810,7 @@
     <ID>189</ID>
     <DeviceID>27</DeviceID>
     <ButtonID>5</ButtonID>
-    <Discription>ADF Loop Antenna speed Left/Nom/Right {0.1,0.2,0.3}</Discription>
+    <Discription>ADF Loop Antenna speed (Left/Nom/Right) {0.1,0.2,0.3}</Discription>
     <Type>Switch</Type>
     <DcsID>42</DcsID>
   </Clickabledata>
@@ -1826,7 +1826,7 @@
     <ID>191</ID>
     <DeviceID>27</DeviceID>
     <ButtonID>4</ButtonID>
-    <Discription>ADF Gain control / Mode {0.0,1.0} in 0.1 Steps</Discription>
+    <Discription>ADF Gain control {0.0,1.0} in 0.1 Steps</Discription>
     <Type>Rotary</Type>
     <DcsID>44</DcsID>
   </Clickabledata>
@@ -1834,7 +1834,7 @@
     <ID>192</ID>
     <DeviceID>27</DeviceID>
     <ButtonID>1</ButtonID>
-    <Discription>ADF Gain control / Mode OFF/ADF/ANT/LOOP {0.0,0.3} in 0.1 Steps</Discription>
+    <Discription>ADF Mode (OFF/ADF/ANT/LOOP) {0.0,0.3} in 0.1 Steps</Discription>
     <Type>Rotary</Type>
     <DcsID>43</DcsID>
   </Clickabledata>
@@ -1842,7 +1842,7 @@
     <ID>193</ID>
     <DeviceID>27</DeviceID>
     <ButtonID>3</ButtonID>
-    <Discription>ADF Tune control / Band selection {0.0,1.0} in 0.1 Steps</Discription>
+    <Discription>ADF Tune control {0.0,1.0} in 0.1 Steps</Discription>
     <Type>Rotary</Type>
     <DcsID>39</DcsID>
   </Clickabledata>
@@ -1850,8 +1850,8 @@
     <ID>194</ID>
     <DeviceID>27</DeviceID>
     <ButtonID>2</ButtonID>
-    <Discription>ADF Tune control / Band selection 190/400/800 {-1.0,0.0,1.0}</Discription>
-    <Type>Rotary</Type>
+    <Discription>ADF Band selection (190/400/800) {-1.0,0.0,1.0}</Discription>
+    <Type>Switch</Type>
     <DcsID>38</DcsID>
   </Clickabledata>
   <Clickabledata>
@@ -1890,7 +1890,7 @@
     <ID>199</ID>
     <DeviceID>32</DeviceID>
     <ButtonID>3</ButtonID>
-    <Discription>Sighting Station Lamp Switch BACKUP/OFF/MAIN {-1.0,0.0,1.0}</Discription>
+    <Discription>Sighting Station Lamp Switch (BACKUP/OFF/MAIN) {-1.0,0.0,1.0}</Discription>
     <Type>Switch</Type>
     <DcsID>408</DcsID>
   </Clickabledata>
@@ -1898,7 +1898,7 @@
     <ID>200</ID>
     <DeviceID>41</DeviceID>
     <ButtonID>1</ButtonID>
-    <Discription>Stick 1 Force Trim ON/OFF</Discription>
+    <Discription>Stick 1 Force Trim ON/OFF (Pilot)</Discription>
     <Type>Switch</Type>
     <DcsID>189</DcsID>
   </Clickabledata>
@@ -1906,7 +1906,7 @@
     <ID>201</ID>
     <DeviceID>41</DeviceID>
     <ButtonID>2</ButtonID>
-    <Discription>Stick 2 Force Trim ON/OFF</Discription>
+    <Discription>Stick 2 Force Trim ON/OFF (CoPilot)</Discription>
     <Type>Switch</Type>
     <DcsID>193</DcsID>
   </Clickabledata>
@@ -1914,7 +1914,7 @@
     <ID>202</ID>
     <DeviceID>47</DeviceID>
     <ButtonID>1</ButtonID>
-    <Discription>Bleed Air, OFF/1/2/3/4 {0.0,0.1,0.2,0.3,0.4}</Discription>
+    <Discription>Bleed Air (OFF/1/2/3/4) {0.0,0.1,0.2,0.3,0.4}</Discription>
     <Type>Switch</Type>
     <DcsID>236</DcsID>
   </Clickabledata>
@@ -2024,6 +2024,30 @@
   </Clickabledata>
   <Clickabledata>
     <ID>216</ID>
+    <DeviceID>52</DeviceID>
+    <ButtonID>1</ButtonID>
+    <Discription>Cargo Release Pilot</Discription>
+    <Type>Switch</Type>
+    <DcsID>195</DcsID>
+  </Clickabledata>
+  <Clickabledata>
+    <ID>217</ID>
+    <DeviceID>52</DeviceID>
+    <ButtonID>2</ButtonID>
+    <Discription>Cargo Release CoPilot</Discription>
+    <Type>Switch</Type>
+    <DcsID>198</DcsID>
+  </Clickabledata>
+  <Clickabledata>
+    <ID>218</ID>
+    <DeviceID>52</DeviceID>
+    <ButtonID>3</ButtonID>
+    <Discription>Cargo Safety</Discription>
+    <Type>Switch</Type>
+    <DcsID>228</DcsID>
+  </Clickabledata>
+  <Clickabledata>
+    <ID>219</ID>
     <DeviceID>1000</DeviceID>
     <ButtonID>1</ButtonID>
     <Discription>genericRadio selection switch</Discription>
@@ -2031,7 +2055,7 @@
     <DcsID>0</DcsID>
   </Clickabledata>
   <Clickabledata>
-    <ID>217</ID>
+    <ID>220</ID>
     <DeviceID>1000</DeviceID>
     <ButtonID>2</ButtonID>
     <Discription>genericRadio Frequency 1 {0.0 to 2.0 in 0.1 steps}</Discription>
@@ -2039,7 +2063,7 @@
     <DcsID>0</DcsID>
   </Clickabledata>
   <Clickabledata>
-    <ID>218</ID>
+    <ID>221</ID>
     <DeviceID>1000</DeviceID>
     <ButtonID>3</ButtonID>
     <Discription>genericRadio Frequency 2 {0.0 to 2.0 in 0.1 steps}</Discription>
@@ -2047,7 +2071,7 @@
     <DcsID>0</DcsID>
   </Clickabledata>
   <Clickabledata>
-    <ID>219</ID>
+    <ID>222</ID>
     <DeviceID>1000</DeviceID>
     <ButtonID>4</ButtonID>
     <Discription>genericRadio Volumen {0.0 to 2.0 in 0.1 steps}</Discription>
@@ -2055,7 +2079,7 @@
     <DcsID>0</DcsID>
   </Clickabledata>
   <Clickabledata>
-    <ID>220</ID>
+    <ID>223</ID>
     <DeviceID>1000</DeviceID>
     <ButtonID>5</ButtonID>
     <Discription>genericRadio Preset Channel {0.0 to 2.0 in 0.1 steps}</Discription>
@@ -2063,7 +2087,7 @@
     <DcsID>0</DcsID>
   </Clickabledata>
   <Clickabledata>
-    <ID>221</ID>
+    <ID>224</ID>
     <DeviceID>1000</DeviceID>
     <ButtonID>6</ButtonID>
     <Discription>genericRadio Load Button</Discription>
@@ -2071,7 +2095,7 @@
     <DcsID>0</DcsID>
   </Clickabledata>
   <Clickabledata>
-    <ID>222</ID>
+    <ID>225</ID>
     <DeviceID>1000</DeviceID>
     <ButtonID>7</ButtonID>
     <Discription>genericRadio Squelch Button</Discription>
@@ -2079,7 +2103,7 @@
     <DcsID>0</DcsID>
   </Clickabledata>
   <Clickabledata>
-    <ID>223</ID>
+    <ID>226</ID>
     <DeviceID>1000</DeviceID>
     <ButtonID>8</ButtonID>
     <Discription>genericRadio Manual-Preset Button</Discription>
@@ -2087,7 +2111,7 @@
     <DcsID>0</DcsID>
   </Clickabledata>
   <Clickabledata>
-    <ID>224</ID>
+    <ID>227</ID>
     <DeviceID>1000</DeviceID>
     <ButtonID>9</ButtonID>
     <Discription>genericRadio Power Button</Discription>
@@ -2209,6 +2233,10 @@
   <Devices>
     <DeviceID>50</DeviceID>
     <Discription>XM_130</Discription>
+  </Devices>
+  <Devices>
+    <DeviceID>52</DeviceID>
+    <Discription>EXT_CARGO_EQUIPMENT</Discription>
   </Devices>
   <Devices>
     <DeviceID>1000</DeviceID>
