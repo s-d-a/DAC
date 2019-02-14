@@ -1652,8 +1652,8 @@
     <ID>868</ID>
     <DeviceID>18</DeviceID>
     <ButtonID>273</ButtonID>
-    <Discription>RWR Power/Volume Button</Discription>
-    <Type>Switch</Type>
+    <Discription>RWR Power/Volume Button {0.0 to 1.0} in 0.10 steps</Discription>
+    <Type>Rotary</Type>
     <DcsID>273</DcsID>
   </Clickabledata>
   <Clickabledata>
@@ -2018,7 +2018,7 @@
   </Clickabledata>
   <Clickabledata>
     <ID>920</ID>
-    <DeviceID>35</DeviceID>
+    <DeviceID>36</DeviceID>
     <ButtonID>514</ButtonID>
     <Discription>Oxygen Switch</Discription>
     <Type>Switch</Type>
@@ -2132,7 +2132,7 @@
     <ID>938</ID>
     <DeviceID>7</DeviceID>
     <ButtonID>615</ButtonID>
-    <Discription>V/UHF RSC Chan/Freq Knob {0.0,1.0} in 0.015 Steps</Discription>
+    <Discription>V/UHF RSC Chan/Freq Knob</Discription>
     <Type>Rotary</Type>
     <DcsID>615</DcsID>
   </Clickabledata>
@@ -2683,5 +2683,13 @@
   <Devices>
     <DeviceID>39</DeviceID>
     <Discription>ANVIS9</Discription>
+  </Devices>
+  <Devices>
+    <DeviceID>40</DeviceID>
+    <Discription>AUTOSTART</Discription>
+  </Devices>
+  <Devices>
+    <DeviceID>41</DeviceID>
+    <Discription>DAMAGE_CONTROL</Discription>
   </Devices>
 </DTADataSet>

@@ -1701,7 +1701,7 @@
     <DeviceID>4</DeviceID>
     <ButtonID>10</ButtonID>
     <Discription>CMSP - Missile Warning System (MWS)</Discription>
-    <Type>Rotary</Type>
+    <Type>Switch</Type>
     <DcsID>360</DcsID>
   </Clickabledata>
   <Clickabledata>
@@ -3970,7 +3970,7 @@
   </Clickabledata>
   <Clickabledata>
     <ID>418</ID>
-    <DeviceID>51</DeviceID>
+    <DeviceID>74</DeviceID>
     <ButtonID>1</ButtonID>
     <Discription>TACAN - Channel Selector (Tens)</Discription>
     <Type>Rotary</Type>
@@ -3978,40 +3978,40 @@
   </Clickabledata>
   <Clickabledata>
     <ID>419</ID>
-    <DeviceID>51</DeviceID>
-    <ButtonID>3</ButtonID>
+    <DeviceID>74</DeviceID>
+    <ButtonID>2</ButtonID>
     <Discription>TACAN - Channel Selector (Ones)</Discription>
     <Type>Rotary</Type>
     <DcsID>257</DcsID>
   </Clickabledata>
   <Clickabledata>
     <ID>420</ID>
-    <DeviceID>51</DeviceID>
-    <ButtonID>5</ButtonID>
+    <DeviceID>74</DeviceID>
+    <ButtonID>3</ButtonID>
     <Discription>TACAN - Channel Selector (Ones) (button)</Discription>
     <Type>Switch</Type>
     <DcsID>258</DcsID>
   </Clickabledata>
   <Clickabledata>
     <ID>421</ID>
-    <DeviceID>51</DeviceID>
-    <ButtonID>6</ButtonID>
+    <DeviceID>74</DeviceID>
+    <ButtonID>4</ButtonID>
     <Discription>Test TACAN Signal on HSI</Discription>
     <Type>Switch</Type>
     <DcsID>259</DcsID>
   </Clickabledata>
   <Clickabledata>
     <ID>422</ID>
-    <DeviceID>51</DeviceID>
-    <ButtonID>7</ButtonID>
+    <DeviceID>74</DeviceID>
+    <ButtonID>5</ButtonID>
     <Discription>TACAN - Signal Volume</Discription>
     <Type>Rotary</Type>
     <DcsID>261</DcsID>
   </Clickabledata>
   <Clickabledata>
     <ID>423</ID>
-    <DeviceID>51</DeviceID>
-    <ButtonID>8</ButtonID>
+    <DeviceID>74</DeviceID>
+    <ButtonID>6</ButtonID>
     <Discription>TACAN - Mode Dial</Discription>
     <Type>Switch</Type>
     <DcsID>262</DcsID>
@@ -4044,8 +4044,8 @@
     <ID>427</ID>
     <DeviceID>53</DeviceID>
     <ButtonID>1</ButtonID>
-    <Discription>ILS Power (switch)</Discription>
-    <Type>Switch</Type>
+    <Discription>ILS Power</Discription>
+    <Type>Rotary</Type>
     <DcsID>247</DcsID>
   </Clickabledata>
   <Clickabledata>
@@ -4054,15 +4054,15 @@
     <ButtonID>3</ButtonID>
     <Discription>ILS Frequency kHz</Discription>
     <Type>Rotary</Type>
-    <DcsID>250</DcsID>
+    <DcsID>249</DcsID>
   </Clickabledata>
   <Clickabledata>
     <ID>429</ID>
     <DeviceID>53</DeviceID>
-    <ButtonID>4</ButtonID>
+    <ButtonID>5</ButtonID>
     <Discription>ILS Volume</Discription>
     <Type>Rotary</Type>
-    <DcsID>249</DcsID>
+    <DcsID>250</DcsID>
   </Clickabledata>
   <Clickabledata>
     <ID>431</ID>
@@ -4094,7 +4094,7 @@
     <ButtonID>4</ButtonID>
     <Discription>UHF 1 MHz Selector</Discription>
     <Type>Switch</Type>
-    <DcsID>163</DcsID>
+    <DcsID>164</DcsID>
   </Clickabledata>
   <Clickabledata>
     <ID>435</ID>
@@ -4203,7 +4203,7 @@
   <Clickabledata>
     <ID>448</ID>
     <DeviceID>55</DeviceID>
-    <ButtonID>2</ButtonID>
+    <ButtonID>1</ButtonID>
     <Discription>VHF AM Preset Channel Selector right</Discription>
     <Type>Switch</Type>
     <DcsID>137</DcsID>
@@ -4331,7 +4331,7 @@
   <Clickabledata>
     <ID>464</ID>
     <DeviceID>56</DeviceID>
-    <ButtonID>2</ButtonID>
+    <ButtonID>1</ButtonID>
     <Discription>VHF FM Preset Channel Selector right</Discription>
     <Type>Switch</Type>
     <DcsID>151</DcsID>
@@ -4963,6 +4963,10 @@
   <Devices>
     <DeviceID>73</DeviceID>
     <Discription>DVADR</Discription>
+  </Devices>
+  <Devices>
+    <DeviceID>74</DeviceID>
+    <Discription>TACAN_CTRL_PANEL</Discription>
   </Devices>
   <Devices>
     <DeviceID>1000</DeviceID>
